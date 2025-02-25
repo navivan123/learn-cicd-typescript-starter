@@ -23,7 +23,7 @@ describe("getApiKey", () => {
     });
 
     test("getApiKey header with auth-header key AND the correct key :).", () => {
-        const headers = { "auth-header": "ApiKey", }
-        expect(getAPIKey(headers)).toBeNull();
+        const headers = { "auth-header": "ApiKey abcd", }
+        expect(getAPIKey(headers)).toBe("abcd");
     });
 });
