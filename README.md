@@ -4,6 +4,8 @@ This repo contains the typescript starter code for the "Notely" application for 
 
 However, this fork is my repo now MWAHAHA!...
 
+Ok it didn't want me to merge.  Womp womp
+
 ## Local Development
 
 Make sure you're on Node version 18+.
